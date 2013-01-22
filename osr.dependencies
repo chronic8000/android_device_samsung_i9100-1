@@ -1,8 +1,8 @@
 [
     {
-        "repository": "SuperJB-Devices/android_device_samsung_galaxys2-common",
+        "repository": "CyanogenMod/android_device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
-	"branch": "jellybean"
+	"branch": "cm-10.1"
     },
     {
         "repository": "SuperJB-Vendor/android_vendor_samsung_galaxys2-common",
