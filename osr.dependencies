@@ -20,9 +20,9 @@
         "branch": "cm-10.1"
     },
     {
-        "repository": "SuperJB-Kernel/android_kernel_samsung_smdk4210",
+        "repository": "CyanogenMod/android_kernel_samsung_smdk4210",
         "target_path": "kernel/samsung/smdk4210",
-	"branch": "jellybean"
+	"branch": "cm-10.1"
     },
     {
         "repository": "CyanogenMod/android_hardware_samsung",
