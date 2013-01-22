@@ -1,18 +1,23 @@
 [
     {
-        "repository": "SuperJB-Vendor/android_vendor_samsung_galaxys2-common",
+        "repository": "SuperJB-Device/android_device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
 	"branch": "jellybean"
     },
     {
+        "repository": "SuperJB-Vendor/android_vendor_samsung_galaxys2-common",
+        "target_path": "vendor/samsung/galaxys2-common",
+	"branch": "jellybean"
+    },
+    {
         "repository": "SuperJB-Vendor/android_vendor_samsung_i9100",
-        "target_path": "device/samsung/galaxys2-common",
+        "target_path": "vendor/samsung/i9100",
 	"branch": "jellybean"
     },
     {
         "repository": "android_packages_apps_SamsungServiceMode",
         "target_path": "packages/apps/SamsungServiceMode",
-        "branch": "jellybean"
+        "branch": "cm-10.1"
     },
     {
         "repository": "SuperJB-Kernel/android_kernel_samsung_smdk4210",
@@ -20,13 +25,8 @@
 	"branch": "jellybean"
     },
     {
-        "repository": "SuperJB/android_packages_apps_Torch",
-        "target_path": "android_packages/apps/Torch",
-        "branch": "jellybean"
-    },
-    {
-        "repository": "SuperJB-Device/android_device_samsung_galaxys2-common",
-        "target_path": "device/samsung/galaxys2-common",
-	"branch": "jellybean"
+        "repository": "CyanogenMod/android_hardware_samsung",
+        "target_path": "hardware/samsung",
+        "branch": "cm-10.1"
     }
 ]
