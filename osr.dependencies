@@ -5,12 +5,12 @@
 	"branch": "cm-10.1"
     },
     {
-        "repository": "SuperJB-Vendor/android_vendor_samsung_galaxys2-common",
+        "repository": "SuperOSR/android_vendor_samsung_galaxys2-common",
         "target_path": "vendor/samsung/galaxys2-common",
 	"branch": "jellybean"
     },
     {
-        "repository": "SuperJB-Vendor/android_vendor_samsung_i9100",
+        "repository": "SuperOSR/android_vendor_samsung_i9100",
         "target_path": "vendor/samsung/i9100",
 	"branch": "jellybean"
     },
