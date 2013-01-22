@@ -1,6 +1,6 @@
 [
     {
-        "repository": "SuperJB-Device/android_device_samsung_galaxys2-common",
+        "repository": "SuperJB-Devices/android_device_samsung_galaxys2-common",
         "target_path": "device/samsung/galaxys2-common",
 	"branch": "jellybean"
     },
@@ -15,7 +15,7 @@
 	"branch": "jellybean"
     },
     {
-        "repository": "android_packages_apps_SamsungServiceMode",
+        "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
         "target_path": "packages/apps/SamsungServiceMode",
         "branch": "cm-10.1"
     },
