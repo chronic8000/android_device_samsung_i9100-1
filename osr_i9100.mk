@@ -30,6 +30,22 @@ $(call inherit-product, vendor/osr/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9100/full_i9100.mk)
 
+# Add Google apps
+$(call inherit-product, vendor/google/minimal.mk)
+$(call inherit-product, vendor/google/products/maps_support.mk)
+$(call inherit-product, vendor/google/products/music_support.mk)
+$(call inherit-product, vendor/google/products/facelock_support.mk)
+$(call inherit-product, vendor/google/products/youtube_support.mk)
+
+#Languages
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_small.mk)
+
+# This file simply inherits from all the know language packs.
+$(call inherit-product, external/svox/pico/lang/PicoLangDeDeInSystem.mk)
+$(call inherit-product, external/svox/pico/lang/PicoLangEnGBInSystem.mk)
+$(call inherit-product, external/svox/pico/lang/PicoLangEnUsInSystem.mk)
+$(call inherit-product, external/svox/pico/lang/PicoLangEsEsInSystem.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9100
 PRODUCT_NAME := osr_i9100
